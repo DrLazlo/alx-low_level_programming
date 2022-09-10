@@ -21,13 +21,16 @@ int main(void)
 			putchar(b);
 			putchar(' ');
 			putchar(c);
-			putchar(d);																				if (i != 98)
+			putchar(d);
+			
+			if (i != 98)
 			{
 				putchar(',');
 				putchar(' ');
 			}																																									}
 	
 	}
+
 	putchar('\n');
 	return (0);
 }
